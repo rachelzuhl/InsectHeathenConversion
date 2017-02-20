@@ -1,0 +1,539 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CB6FD6B71E2D427400FCFF0B /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB6FD6B61E2D427400FCFF0B /* Cocoa.framework */; };
+		CB6FD6C11E2D427400FCFF0B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CB6FD6BF1E2D427400FCFF0B /* InfoPlist.strings */; };
+		CB6FD6C31E2D427400FCFF0B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CB6FD6C21E2D427400FCFF0B /* main.m */; };
+		CB6FD6C71E2D427400FCFF0B /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = CB6FD6C51E2D427400FCFF0B /* Credits.rtf */; };
+		CB6FD6CA1E2D427400FCFF0B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CB6FD6C91E2D427400FCFF0B /* AppDelegate.m */; };
+		CB6FD6CD1E2D427400FCFF0B /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = CB6FD6CB1E2D427400FCFF0B /* MainMenu.xib */; };
+		CB6FD6CF1E2D427400FCFF0B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB6FD6CE1E2D427400FCFF0B /* Images.xcassets */; };
+		CB6FD6D61E2D427400FCFF0B /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB6FD6D51E2D427400FCFF0B /* XCTest.framework */; };
+		CB6FD6D71E2D427400FCFF0B /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB6FD6B61E2D427400FCFF0B /* Cocoa.framework */; };
+		CB6FD6DF1E2D427400FCFF0B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CB6FD6DD1E2D427400FCFF0B /* InfoPlist.strings */; };
+		CB6FD6E11E2D427400FCFF0B /* InsectHeathenConversionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CB6FD6E01E2D427400FCFF0B /* InsectHeathenConversionTests.m */; };
+		CB6FD6EC1E2D624600FCFF0B /* Beetle.m in Sources */ = {isa = PBXBuildFile; fileRef = CB6FD6EB1E2D624600FCFF0B /* Beetle.m */; };
+		CB6FD6EF1E2D64BD00FCFF0B /* Religion.m in Sources */ = {isa = PBXBuildFile; fileRef = CB6FD6EE1E2D64BD00FCFF0B /* Religion.m */; };
+		CB6FD6F31E2D7B0E00FCFF0B /* Dead1.png in Resources */ = {isa = PBXBuildFile; fileRef = CB6FD6F21E2D7B0E00FCFF0B /* Dead1.png */; };
+		CB6FD6F51E2D7B4E00FCFF0B /* Bug.png in Resources */ = {isa = PBXBuildFile; fileRef = CB6FD6F41E2D7B4E00FCFF0B /* Bug.png */; };
+		CB6FD6F71E2D7B7F00FCFF0B /* BugRight.png in Resources */ = {isa = PBXBuildFile; fileRef = CB6FD6F61E2D7B7F00FCFF0B /* BugRight.png */; };
+		CB6FD6F91E2D7BB500FCFF0B /* DirtE.png in Resources */ = {isa = PBXBuildFile; fileRef = CB6FD6F81E2D7BB500FCFF0B /* DirtE.png */; };
+		CB6FD6FB1E2D7BE500FCFF0B /* BugDown.png in Resources */ = {isa = PBXBuildFile; fileRef = CB6FD6FA1E2D7BE500FCFF0B /* BugDown.png */; };
+		CB6FD6FD1E2D7C0E00FCFF0B /* BugLeft.png in Resources */ = {isa = PBXBuildFile; fileRef = CB6FD6FC1E2D7C0E00FCFF0B /* BugLeft.png */; };
+		CB6FD6FF1E2D7C5E00FCFF0B /* RockLarge1.png in Resources */ = {isa = PBXBuildFile; fileRef = CB6FD6FE1E2D7C5E00FCFF0B /* RockLarge1.png */; };
+		CB6FD7071E2D87D700FCFF0B /* Application.xib in Resources */ = {isa = PBXBuildFile; fileRef = CB6FD7061E2D87D700FCFF0B /* Application.xib */; };
+		CB6FD7091E2D87F900FCFF0B /* MainView.xib in Resources */ = {isa = PBXBuildFile; fileRef = CB6FD7081E2D87F900FCFF0B /* MainView.xib */; };
+		CB6FD70C1E2E7F5000FCFF0B /* Map.m in Sources */ = {isa = PBXBuildFile; fileRef = CB6FD70B1E2E7F5000FCFF0B /* Map.m */; };
+		CB6FD70F1E2E816000FCFF0B /* Grid.m in Sources */ = {isa = PBXBuildFile; fileRef = CB6FD70E1E2E816000FCFF0B /* Grid.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CB6FD6D81E2D427400FCFF0B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CB6FD6AB1E2D427400FCFF0B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CB6FD6B21E2D427400FCFF0B;
+			remoteInfo = InsectHeathenConversion;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CB6FD6B31E2D427400FCFF0B /* InsectHeathenConversion.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InsectHeathenConversion.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB6FD6B61E2D427400FCFF0B /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		CB6FD6B91E2D427400FCFF0B /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		CB6FD6BA1E2D427400FCFF0B /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		CB6FD6BB1E2D427400FCFF0B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CB6FD6BE1E2D427400FCFF0B /* InsectHeathenConversion-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "InsectHeathenConversion-Info.plist"; sourceTree = "<group>"; };
+		CB6FD6C01E2D427400FCFF0B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CB6FD6C21E2D427400FCFF0B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CB6FD6C41E2D427400FCFF0B /* InsectHeathenConversion-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "InsectHeathenConversion-Prefix.pch"; sourceTree = "<group>"; };
+		CB6FD6C61E2D427400FCFF0B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		CB6FD6C81E2D427400FCFF0B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CB6FD6C91E2D427400FCFF0B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CB6FD6CC1E2D427400FCFF0B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		CB6FD6CE1E2D427400FCFF0B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		CB6FD6D41E2D427400FCFF0B /* InsectHeathenConversionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InsectHeathenConversionTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB6FD6D51E2D427400FCFF0B /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		CB6FD6DC1E2D427400FCFF0B /* InsectHeathenConversionTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "InsectHeathenConversionTests-Info.plist"; sourceTree = "<group>"; };
+		CB6FD6DE1E2D427400FCFF0B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CB6FD6E01E2D427400FCFF0B /* InsectHeathenConversionTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InsectHeathenConversionTests.m; sourceTree = "<group>"; };
+		CB6FD6EA1E2D624600FCFF0B /* Beetle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Beetle.h; sourceTree = "<group>"; };
+		CB6FD6EB1E2D624600FCFF0B /* Beetle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Beetle.m; sourceTree = "<group>"; };
+		CB6FD6ED1E2D64BD00FCFF0B /* Religion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Religion.h; sourceTree = "<group>"; };
+		CB6FD6EE1E2D64BD00FCFF0B /* Religion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Religion.m; sourceTree = "<group>"; };
+		CB6FD6F21E2D7B0E00FCFF0B /* Dead1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Dead1.png; sourceTree = "<group>"; };
+		CB6FD6F41E2D7B4E00FCFF0B /* Bug.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Bug.png; sourceTree = "<group>"; };
+		CB6FD6F61E2D7B7F00FCFF0B /* BugRight.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BugRight.png; sourceTree = "<group>"; };
+		CB6FD6F81E2D7BB500FCFF0B /* DirtE.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = DirtE.png; sourceTree = "<group>"; };
+		CB6FD6FA1E2D7BE500FCFF0B /* BugDown.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BugDown.png; sourceTree = "<group>"; };
+		CB6FD6FC1E2D7C0E00FCFF0B /* BugLeft.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BugLeft.png; sourceTree = "<group>"; };
+		CB6FD6FE1E2D7C5E00FCFF0B /* RockLarge1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = RockLarge1.png; sourceTree = "<group>"; };
+		CB6FD7061E2D87D700FCFF0B /* Application.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Application.xib; sourceTree = "<group>"; };
+		CB6FD7081E2D87F900FCFF0B /* MainView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainView.xib; sourceTree = "<group>"; };
+		CB6FD70A1E2E7F5000FCFF0B /* Map.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Map.h; sourceTree = "<group>"; };
+		CB6FD70B1E2E7F5000FCFF0B /* Map.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Map.m; sourceTree = "<group>"; };
+		CB6FD70D1E2E816000FCFF0B /* Grid.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Grid.h; sourceTree = "<group>"; };
+		CB6FD70E1E2E816000FCFF0B /* Grid.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Grid.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CB6FD6B01E2D427400FCFF0B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB6FD6B71E2D427400FCFF0B /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB6FD6D11E2D427400FCFF0B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB6FD6D71E2D427400FCFF0B /* Cocoa.framework in Frameworks */,
+				CB6FD6D61E2D427400FCFF0B /* XCTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CB6FD6AA1E2D427400FCFF0B = {
+			isa = PBXGroup;
+			children = (
+				CB6FD6BC1E2D427400FCFF0B /* InsectHeathenConversion */,
+				CB6FD6DA1E2D427400FCFF0B /* InsectHeathenConversionTests */,
+				CB6FD6B51E2D427400FCFF0B /* Frameworks */,
+				CB6FD6B41E2D427400FCFF0B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CB6FD6B41E2D427400FCFF0B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CB6FD6B31E2D427400FCFF0B /* InsectHeathenConversion.app */,
+				CB6FD6D41E2D427400FCFF0B /* InsectHeathenConversionTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CB6FD6B51E2D427400FCFF0B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CB6FD6B61E2D427400FCFF0B /* Cocoa.framework */,
+				CB6FD6D51E2D427400FCFF0B /* XCTest.framework */,
+				CB6FD6B81E2D427400FCFF0B /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CB6FD6B81E2D427400FCFF0B /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CB6FD6B91E2D427400FCFF0B /* AppKit.framework */,
+				CB6FD6BA1E2D427400FCFF0B /* CoreData.framework */,
+				CB6FD6BB1E2D427400FCFF0B /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		CB6FD6BC1E2D427400FCFF0B /* InsectHeathenConversion */ = {
+			isa = PBXGroup;
+			children = (
+				CB6FD6C81E2D427400FCFF0B /* AppDelegate.h */,
+				CB6FD6C91E2D427400FCFF0B /* AppDelegate.m */,
+				CB6FD6CB1E2D427400FCFF0B /* MainMenu.xib */,
+				CB6FD6EA1E2D624600FCFF0B /* Beetle.h */,
+				CB6FD70A1E2E7F5000FCFF0B /* Map.h */,
+				CB6FD70D1E2E816000FCFF0B /* Grid.h */,
+				CB6FD70E1E2E816000FCFF0B /* Grid.m */,
+				CB6FD70B1E2E7F5000FCFF0B /* Map.m */,
+				CB6FD6ED1E2D64BD00FCFF0B /* Religion.h */,
+				CB6FD6FE1E2D7C5E00FCFF0B /* RockLarge1.png */,
+				CB6FD6FC1E2D7C0E00FCFF0B /* BugLeft.png */,
+				CB6FD6FA1E2D7BE500FCFF0B /* BugDown.png */,
+				CB6FD6F81E2D7BB500FCFF0B /* DirtE.png */,
+				CB6FD6F61E2D7B7F00FCFF0B /* BugRight.png */,
+				CB6FD6F41E2D7B4E00FCFF0B /* Bug.png */,
+				CB6FD6F21E2D7B0E00FCFF0B /* Dead1.png */,
+				CB6FD6EE1E2D64BD00FCFF0B /* Religion.m */,
+				CB6FD6EB1E2D624600FCFF0B /* Beetle.m */,
+				CB6FD7061E2D87D700FCFF0B /* Application.xib */,
+				CB6FD7081E2D87F900FCFF0B /* MainView.xib */,
+				CB6FD6CE1E2D427400FCFF0B /* Images.xcassets */,
+				CB6FD6BD1E2D427400FCFF0B /* Supporting Files */,
+			);
+			path = InsectHeathenConversion;
+			sourceTree = "<group>";
+		};
+		CB6FD6BD1E2D427400FCFF0B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CB6FD6BE1E2D427400FCFF0B /* InsectHeathenConversion-Info.plist */,
+				CB6FD6BF1E2D427400FCFF0B /* InfoPlist.strings */,
+				CB6FD6C21E2D427400FCFF0B /* main.m */,
+				CB6FD6C41E2D427400FCFF0B /* InsectHeathenConversion-Prefix.pch */,
+				CB6FD6C51E2D427400FCFF0B /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CB6FD6DA1E2D427400FCFF0B /* InsectHeathenConversionTests */ = {
+			isa = PBXGroup;
+			children = (
+				CB6FD6E01E2D427400FCFF0B /* InsectHeathenConversionTests.m */,
+				CB6FD6DB1E2D427400FCFF0B /* Supporting Files */,
+			);
+			path = InsectHeathenConversionTests;
+			sourceTree = "<group>";
+		};
+		CB6FD6DB1E2D427400FCFF0B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CB6FD6DC1E2D427400FCFF0B /* InsectHeathenConversionTests-Info.plist */,
+				CB6FD6DD1E2D427400FCFF0B /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CB6FD6B21E2D427400FCFF0B /* InsectHeathenConversion */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CB6FD6E41E2D427400FCFF0B /* Build configuration list for PBXNativeTarget "InsectHeathenConversion" */;
+			buildPhases = (
+				CB6FD6AF1E2D427400FCFF0B /* Sources */,
+				CB6FD6B01E2D427400FCFF0B /* Frameworks */,
+				CB6FD6B11E2D427400FCFF0B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = InsectHeathenConversion;
+			productName = InsectHeathenConversion;
+			productReference = CB6FD6B31E2D427400FCFF0B /* InsectHeathenConversion.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CB6FD6D31E2D427400FCFF0B /* InsectHeathenConversionTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CB6FD6E71E2D427400FCFF0B /* Build configuration list for PBXNativeTarget "InsectHeathenConversionTests" */;
+			buildPhases = (
+				CB6FD6D01E2D427400FCFF0B /* Sources */,
+				CB6FD6D11E2D427400FCFF0B /* Frameworks */,
+				CB6FD6D21E2D427400FCFF0B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CB6FD6D91E2D427400FCFF0B /* PBXTargetDependency */,
+			);
+			name = InsectHeathenConversionTests;
+			productName = InsectHeathenConversionTests;
+			productReference = CB6FD6D41E2D427400FCFF0B /* InsectHeathenConversionTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CB6FD6AB1E2D427400FCFF0B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Rachel Zuhl2";
+				TargetAttributes = {
+					CB6FD6D31E2D427400FCFF0B = {
+						TestTargetID = CB6FD6B21E2D427400FCFF0B;
+					};
+				};
+			};
+			buildConfigurationList = CB6FD6AE1E2D427400FCFF0B /* Build configuration list for PBXProject "InsectHeathenConversion" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CB6FD6AA1E2D427400FCFF0B;
+			productRefGroup = CB6FD6B41E2D427400FCFF0B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CB6FD6B21E2D427400FCFF0B /* InsectHeathenConversion */,
+				CB6FD6D31E2D427400FCFF0B /* InsectHeathenConversionTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CB6FD6B11E2D427400FCFF0B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB6FD6F71E2D7B7F00FCFF0B /* BugRight.png in Resources */,
+				CB6FD6F51E2D7B4E00FCFF0B /* Bug.png in Resources */,
+				CB6FD6C11E2D427400FCFF0B /* InfoPlist.strings in Resources */,
+				CB6FD6FD1E2D7C0E00FCFF0B /* BugLeft.png in Resources */,
+				CB6FD6F31E2D7B0E00FCFF0B /* Dead1.png in Resources */,
+				CB6FD6FF1E2D7C5E00FCFF0B /* RockLarge1.png in Resources */,
+				CB6FD6F91E2D7BB500FCFF0B /* DirtE.png in Resources */,
+				CB6FD6CF1E2D427400FCFF0B /* Images.xcassets in Resources */,
+				CB6FD7071E2D87D700FCFF0B /* Application.xib in Resources */,
+				CB6FD7091E2D87F900FCFF0B /* MainView.xib in Resources */,
+				CB6FD6FB1E2D7BE500FCFF0B /* BugDown.png in Resources */,
+				CB6FD6C71E2D427400FCFF0B /* Credits.rtf in Resources */,
+				CB6FD6CD1E2D427400FCFF0B /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB6FD6D21E2D427400FCFF0B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB6FD6DF1E2D427400FCFF0B /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CB6FD6AF1E2D427400FCFF0B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB6FD6EC1E2D624600FCFF0B /* Beetle.m in Sources */,
+				CB6FD70F1E2E816000FCFF0B /* Grid.m in Sources */,
+				CB6FD70C1E2E7F5000FCFF0B /* Map.m in Sources */,
+				CB6FD6CA1E2D427400FCFF0B /* AppDelegate.m in Sources */,
+				CB6FD6EF1E2D64BD00FCFF0B /* Religion.m in Sources */,
+				CB6FD6C31E2D427400FCFF0B /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB6FD6D01E2D427400FCFF0B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB6FD6E11E2D427400FCFF0B /* InsectHeathenConversionTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CB6FD6D91E2D427400FCFF0B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CB6FD6B21E2D427400FCFF0B /* InsectHeathenConversion */;
+			targetProxy = CB6FD6D81E2D427400FCFF0B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CB6FD6BF1E2D427400FCFF0B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CB6FD6C01E2D427400FCFF0B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		CB6FD6C51E2D427400FCFF0B /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CB6FD6C61E2D427400FCFF0B /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		CB6FD6CB1E2D427400FCFF0B /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CB6FD6CC1E2D427400FCFF0B /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		CB6FD6DD1E2D427400FCFF0B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CB6FD6DE1E2D427400FCFF0B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CB6FD6E21E2D427400FCFF0B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		CB6FD6E31E2D427400FCFF0B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		CB6FD6E51E2D427400FCFF0B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "InsectHeathenConversion/InsectHeathenConversion-Prefix.pch";
+				INFOPLIST_FILE = "InsectHeathenConversion/InsectHeathenConversion-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		CB6FD6E61E2D427400FCFF0B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "InsectHeathenConversion/InsectHeathenConversion-Prefix.pch";
+				INFOPLIST_FILE = "InsectHeathenConversion/InsectHeathenConversion-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		CB6FD6E81E2D427400FCFF0B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/InsectHeathenConversion.app/Contents/MacOS/InsectHeathenConversion";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "InsectHeathenConversion/InsectHeathenConversion-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "InsectHeathenConversionTests/InsectHeathenConversionTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		CB6FD6E91E2D427400FCFF0B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/InsectHeathenConversion.app/Contents/MacOS/InsectHeathenConversion";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "InsectHeathenConversion/InsectHeathenConversion-Prefix.pch";
+				INFOPLIST_FILE = "InsectHeathenConversionTests/InsectHeathenConversionTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CB6FD6AE1E2D427400FCFF0B /* Build configuration list for PBXProject "InsectHeathenConversion" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB6FD6E21E2D427400FCFF0B /* Debug */,
+				CB6FD6E31E2D427400FCFF0B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CB6FD6E41E2D427400FCFF0B /* Build configuration list for PBXNativeTarget "InsectHeathenConversion" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB6FD6E51E2D427400FCFF0B /* Debug */,
+				CB6FD6E61E2D427400FCFF0B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CB6FD6E71E2D427400FCFF0B /* Build configuration list for PBXNativeTarget "InsectHeathenConversionTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB6FD6E81E2D427400FCFF0B /* Debug */,
+				CB6FD6E91E2D427400FCFF0B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CB6FD6AB1E2D427400FCFF0B /* Project object */;
+}
